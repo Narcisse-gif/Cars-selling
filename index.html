@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Luxe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6089e4720d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+
+        <div class="menu_toggle">
+            <span></span>
+        </div>
+
+        <div class="logo">
+            <p><span>Luxe</span>Cars</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">Vehicles</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="login_btn" id="login_btn" onclick="openForm()"> LOGIN</button>
+    </header>
+
+
+    <section id="home">
+        <div class="left">
+            <h1>Buy <span>Your Car</span> Cheaper From Us</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eius fugiat nihil. Rem perferendis quidem facere illum inventore necessitatibus omnis fuga optio magni nisi fugiat temporibus eaque molestias placeat, delectus nam aperiam nostrum! Expedita, reiciendis. Amet exercitationem tempora totam optio.
+            </p>
+            <button class="button" onclick="openPoppup()">BUY NOW</button>
+        </div>
+        <div class="right">
+            <img src="images/car1.png">
+        </div>
+    </section>
+
+    <div class="login-form-container" id="loginForm">
+        <form class="bookingForm">
+            <h3>User Login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <input type="submit" value="Login Now" class="btn">
+            <p>Or Login With</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Don't Have An Account <a href="#">Create One</a></p>
+            <button class="btn" onclick="closeForm()">OK</button>
+            
+        </form>
+    </div>
+
+    <div>
+        <div class="poppup" id="poppup">
+          <img src="images/success.jpeg" alt="image">
+          <h2>Thank You!</h2>
+          <p>Please call the owner for more comprehension</p>
+          <button type="button" onclick="closePoppup()">OK</button>
+        </div>
+    </div>
+
+
+
+    <section id="cars">
+        <h1 class="section_title">Our vehicles</h1>
+        <div class="images">
+            <ul>
+                <li class="car">
+                    <div>
+                        <img src="images/car13.jpg" alt="">
+                    </div>
+                    <span>LAMBORGHINI</span>
+                    <span class="prix">300.000$</span>
+                    <a href="#" onclick="openPoppup()"> BUY NOW</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="images/car14.jpg" alt="">
+                    </div>
+                    <span>PRADO</span>
+                    <span class="prix">400.000$</span>
+                    <a href="#" onclick="openPoppup()"> BUY NOW</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="images/car15.jpg" alt="">
+                    </div>
+                    <span>GENESIS</span>
+                    <span class="prix">500.000$</span>
+                    <a href="#" onclick="openPoppup()"> BUY NOW</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="images/car16.jpg" alt="">
+                    </div>
+                    <span>MAYBACH</span>
+                    <span class="prix">600.000$</span>
+                    <a href="#" onclick="openPoppup()"> BUY NOW</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="images/car19.jpg" alt="">
+                    </div>
+                    <span>DODGE</span>
+                    <span class="prix">800.000$</span>
+                    <a href="#" onclick="openPoppup()"> BUY NOW</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="images/car18.jpg" alt="">
+                    </div>
+                    <span>CADILLAC</span>
+                    <span class="prix">900.000$</span>
+                    <a href="#" onclick="openPoppup()"> BUY NOW</a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="section_title">Our Services</h1>
+        <div class="list_services">
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Troubleshooting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolore, laboriosam corrupti placeat rem qui cumque magnam numquam asperiores vero enim unde .</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-car"></i>
+                <h3>Car Selling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolore, laboriosam corrupti placeat rem qui cumque magnam numquam asperiores vero enim unde .</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>Car Insurance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolore, laboriosam corrupti placeat rem qui cumque magnam numquam asperiores vero enim unde .</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-car-battery"></i>
+                <h3>Battery Replacement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolore, laboriosam corrupti placeat rem qui cumque magnam numquam asperiores vero enim unde .</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-gas-pump"></i>
+                <h3>Oil Change</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolore, laboriosam corrupti placeat rem qui cumque magnam numquam asperiores vero enim unde .</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolore, laboriosam corrupti placeat rem qui cumque magnam numquam asperiores vero enim unde .</p>
+                <a href="#" class="read-more">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="section_title">Our Contacts</h1>
+        <div class="localisation_contact_div">
+            <div class="localisation">
+                <h3>Our Address</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1516396.0390009761!2d-3.334645603613488!3d12.007156540802134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e1b37b214a8d5%3A0x8a6ec61b7b025b57!2sKoudougou!5e0!3m2!1sfr!2sbf!4v1717172936618!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form_contact">
+                <h3>Send a message</h3>
+                <form action="#" id="bookingForm">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Address Mail">
+                    <input type="text" placeholder="Object">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send" class="send" onclick="handleSubmit(event)">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Narcisse Youtube Copyright 2024</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
